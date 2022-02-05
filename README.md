@@ -1,6 +1,6 @@
-# ahsankhan26.github.io
+# Sanket Sinha
 
 Personal Static Website
 
-[ahsankhan.me](https://ahsankhan.me)
+[Sanket Sinha]
 "# portfolio" 
