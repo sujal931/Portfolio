@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-	<title>Sanket Sinha</title>
+	<title>Sujal Gupta</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -21,6 +21,242 @@
 	<link rel="stylesheet" href="css/icomoon.css">
 	<link rel="stylesheet" href="css/style.css">
 	<script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+	
+	<!-- Custom Responsive Styles -->
+	<style>
+		/* Mobile First Responsive Design */
+		@media (max-width: 767px) {
+			/* Navigation adjustments */
+			.navbar-brand {
+				font-size: 1.2rem !important;
+			}
+			
+			/* Hero section adjustments */
+			.hero-wrap h1 {
+				font-size: 2.5rem !important;
+			}
+			
+			.hero-wrap h2 {
+				font-size: 1.3rem !important;
+			}
+			
+			/* About section adjustments */
+			.ftco-about .img-about {
+				height: 300px !important;
+				margin-bottom: 30px;
+			}
+			
+			.about-info li {
+				flex-direction: column !important;
+				align-items: flex-start !important;
+				margin-bottom: 10px;
+			}
+			
+			.about-info li span:first-child {
+				font-weight: bold;
+				margin-bottom: 5px;
+			}
+			
+			/* Resume section adjustments */
+			#navi {
+				margin-bottom: 30px;
+			}
+			
+			#navi ul {
+				display: flex;
+				flex-wrap: wrap;
+				gap: 10px;
+			}
+			
+			#navi ul li {
+				flex: 1;
+				min-width: calc(50% - 5px);
+			}
+			
+			#navi ul li a {
+				padding: 8px 12px;
+				font-size: 14px;
+				text-align: center;
+				display: block;
+			}
+			
+			/* Skills section adjustments */
+			.page.three .row.mb-4 {
+				margin-bottom: 20px !important;
+			}
+			
+			.page.three .col {
+				flex: 0 0 33.333333% !important;
+				max-width: 33.333333% !important;
+				padding: 5px !important;
+			}
+			
+			.page.three .col img {
+				max-height: 50px;
+				width: auto;
+			}
+			
+			/* Projects section adjustments */
+			.services-1 {
+				margin-bottom: 30px !important;
+			}
+			
+			.services-1 .icon {
+				margin-bottom: 15px;
+			}
+			
+			.services-1 .desc h3 {
+				font-size: 1.3rem !important;
+			}
+			
+			.services-1 .desc p {
+				font-size: 14px !important;
+			}
+			
+			/* Contact section adjustments */
+			.contact-info .box {
+				margin-bottom: 20px !important;
+			}
+			
+			.contact-form {
+				margin-top: 30px !important;
+			}
+			
+			/* Footer adjustments */
+			.ftco-footer-widget {
+				text-align: center !important;
+				margin-bottom: 30px !important;
+			}
+			
+			.ftco-footer-social {
+				justify-content: center !important;
+			}
+		}
+		
+		@media (max-width: 575px) {
+			/* Extra small devices */
+			.hero-wrap h1 {
+				font-size: 2rem !important;
+			}
+			
+			.hero-wrap h2 {
+				font-size: 1.1rem !important;
+			}
+			
+			.page.three .col {
+				flex: 0 0 50% !important;
+				max-width: 50% !important;
+			}
+			
+			#navi ul li {
+				flex: 1;
+				min-width: 100%;
+			}
+			
+			.contact-info .col-md-6.col-lg-3,
+			.contact-info .col-md-6.col-lg-4 {
+				flex: 0 0 100% !important;
+				max-width: 100% !important;
+			}
+		}
+		
+		@media (min-width: 768px) and (max-width: 991px) {
+			/* Tablet adjustments */
+			.hero-wrap h1 {
+				font-size: 3rem !important;
+			}
+			
+			.page.three .col {
+				flex: 0 0 25% !important;
+				max-width: 25% !important;
+			}
+			
+			.services-1 .desc h3 {
+				font-size: 1.4rem !important;
+			}
+		}
+		
+		@media (min-width: 992px) and (max-width: 1199px) {
+			/* Large tablet/small desktop adjustments */
+			.hero-wrap h1 {
+				font-size: 3.5rem !important;
+			}
+		}
+		
+		/* General responsive improvements */
+		.container-fluid {
+			padding-left: 15px !important;
+			padding-right: 15px !important;
+		}
+		
+		.img-fluid {
+			max-width: 100% !important;
+			height: auto !important;
+		}
+		
+		/* Ensure text doesn't overflow */
+		.text-wrap {
+			word-wrap: break-word;
+			overflow-wrap: break-word;
+		}
+		
+		/* Better spacing for mobile */
+		@media (max-width: 767px) {
+			.py-5 {
+				padding-top: 2rem !important;
+				padding-bottom: 2rem !important;
+			}
+			
+			.mt-5 {
+				margin-top: 2rem !important;
+			}
+			
+			.mb-5 {
+				margin-bottom: 2rem !important;
+			}
+		}
+		
+		/* Form input improvements */
+		.contact-form .form-control {
+			font-size: 16px !important;
+			line-height: 1.5 !important;
+			padding: 12px 15px !important;
+			border: 1px solid #ddd !important;
+			border-radius: 5px !important;
+			font-weight: bold !important;
+			opacity: 1 !important;
+			color: #333 !important;
+		}
+		
+		.contact-form .form-control:focus {
+			border-color: #007bff !important;
+			box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25) !important;
+			outline: none !important;
+			font-weight: bold !important;
+			opacity: 1 !important;
+			color: #333 !important;
+		}
+		
+		.contact-form .form-control::placeholder {
+			font-weight: normal !important;
+			opacity: 0.7 !important;
+			color: #666 !important;
+		}
+		
+		.contact-form textarea.form-control {
+			resize: vertical !important;
+			min-height: 120px !important;
+			font-weight: bold !important;
+			opacity: 1 !important;
+			color: #333 !important;
+		}
+		
+		.contact-form .btn {
+			font-size: 16px !important;
+			font-weight: 500 !important;
+		}
+	</style>
+	
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-039VPBVHWX"></script>
 	<script>
@@ -38,7 +274,7 @@
 	<nav class="navbar navbar-expand-lg navbar-dark bg-dark ftco_navbar ftco-navbar-light site-navbar-target"
 		id="ftco-navbar">
 		<div class="container">
-			<a class="navbar-brand" href="index.html">Sanket Sinha</a>
+			<a class="navbar-brand" href="index.html">Sujal &nbsp;Gupta</a>
 			<button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse"
 				data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="oi oi-menu"></span> Menu
@@ -67,7 +303,7 @@
 				<div class="col-lg-8 col-md-6 ftco-animate d-flex align-items-center">
 					<div class="text text-center">
 						<span class="subheading">Hey! I am</span>
-						<h1>Sanket Sinha</h1>
+						<h1>Sujal Gupta</h1>
 						<h2>I am a  
 							<span class="txt-rotate" data-period="2000"
 								data-rotate='[ "Software Developer.", "Problem Solver.","Team Player."]'></span>
@@ -89,7 +325,7 @@
 	<section class="ftco-about img ftco-section ftco-no-pt ftco-no-pb" id="about-section">
 		<div class="container">
 			<div class="row d-flex no-gutters">
-				<div class="col-md-6 col-lg-6 d-flex">
+				<div class="col-md-6 col-lg-6 col-12 d-flex">
 					<div class="img-about img d-flex align-items-stretch">
 						<div class="overlay"></div>
 						<div class="img d-flex align-self-stretch align-items-center"
@@ -97,15 +333,15 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-6 col-lg-6 pl-md-5 py-5">
+				<div class="col-md-6 col-lg-6 col-12 pl-md-5 py-5">
 					<div class="row justify-content-start pb-3">
 						<div class="col-md-12 heading-section ftco-animate">
 							<h2 class="mb-4">About Me</h2>
 							<p>I like working with new Tools and Technologies.</p>
 							<ul class="about-info mt-4 px-md-0 px-2">
-								<li class="d-flex"><span>Name:</span><span>Sanket Sinha</span></li>
-								<li class="d-flex"><span>Email:</span><span style="font-size: 14px">sinhasanket3@gmail.com</span></li>
-								<li class="d-flex"><span>Phone:</span><span>+977-9815296841  ,  +91-9939831923</span></li>
+								<li class="d-flex"><span>Name:</span><span>Sujal Gupta</span></li>
+								<li class="d-flex"><span>Email:</span><span style="font-size: 14px">guptasujal869gmail.com</span></li>
+								<li class="d-flex"><span>Phone:</span><span>+977-9820907454  ,  +91-9034982232</span></li>
 								<li class="d-flex"><span>Country:</span> <span>Nepal</span></li>
 								<li class="d-flex"><span>City:</span><span>Birgunj</span></li>
 							</ul>
@@ -113,7 +349,7 @@
 					</div>
 					<div class="counter-wrap ftco-animate d-flex mt-md-3">
 						<div class="text">
-							<p><a href="resume/SanketSinha.pdf" target="_blank" class="btn btn-primary py-3 px-3">Download CV</a></p>
+							<p><a href="resume/Sujal_Gupta(Resume).pdf" target="_blank" class="btn btn-primary py-3 px-3">Download Resume</a></p>
 						</div>
 					</div>
 				</div>
@@ -124,19 +360,19 @@
 	<section class="ftco-section ftco-no-pb goto-here" id="resume-section">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-3">
+				<div class="col-md-3 col-12">
 					<nav id="navi">
 						<ul>
 							<li><a href="#page-1">Education</a></li>
 							<li><a href="#page-2">Internships</a></li>
 							<li><a href="#page-3">Skills</a></li>
-							<li><a href="#page-4">Awards & Certifications</a></li>
+							<li><a href="#page-4">Certifications</a></li>
 							<!-- <li><a href="#page-5">Certifications</a></li>
 							<li><a href="#page-6">Projects</a></li> -->
 						</ul>
 					</nav>
 				</div>
-				<div class="col-md-9">
+				<div class="col-md-9 col-12">
 					<div id="page-1" class="page one">
 						<h2 class="heading">Education</h2>
 						<div class="resume-wrap d-flex ftco-animate">
@@ -144,11 +380,11 @@
 								<span class="flaticon-graduation-cap"></span>
 							</div>
 							<div class="text pl-3">
-								<h2>Sanskriti University</h2>
+								<h2>Panipat Institute of Engineering and Technology</h2>
 								<span class="position">Bachelor of Tecnology</span>
 								<p><strong>Computer Science</strong></p>
-								<p>Mathura - India</p>
-								<span class="date">2018-2022 (August)</span>
+								<p>Haryana - India</p>
+								<span class="date">2012-2026 (July)</span>
 							</div>
 						</div>
 						<div class="resume-wrap d-flex ftco-animate">
@@ -160,7 +396,7 @@
 								<span class="position">Intermediate</span>
 								<p><strong>PCM</strong></p>
 								<p>Birgunj - Nepal</p>
-								<span class="date">2016-2018</span>
+								<span class="date">2020-2022</span>
 							</div>
 						</div>
 						<div class="resume-wrap d-flex ftco-animate">
@@ -168,11 +404,11 @@
 								<span class="flaticon-book"></span>
 							</div>
 							<div class="text pl-3">
-								<h2>Gyan Jyoti Higher Secondary School</h2>
+								<h2>Mascot Academy</h2>
 								<span class="position">Matriculation</span>
 								<p><strong>Science</strong></p>
 								<p>Birgunj - Nepal</p>
-								<span class="date">2016</span>
+								<span class="date">2020</span>
 							</div>
 						</div>
 					</div>
@@ -180,14 +416,7 @@
 					<div id="page-2" class="page two">
 						<h2 class="heading">Internship</h2>
 						<div class="resume-wrap d-flex ftco-animate">
-							<div class="icon d-flex align-items-center justify-content-center">
-								<span class="flaticon-suitcase"></span>
-							</div>
-							<div class="text pl-3">
-								<h2>Anu Computer Consultancy</h2>
-								<span class="position"> Web Developer</span>
-								<p class="date">March 2021 - September 2021</p>
-							</div>
+							
 						</div>
 						<div class="resume-wrap d-flex ftco-animate">
 							<div class="icon d-flex align-items-center justify-content-center">
@@ -196,7 +425,7 @@
 							<div class="text pl-3">
 								<h2>Adsbee</h2>
 								<span class="position">Web Developer</span>
-								<p class="date">December 2020 - February 2021</p>
+								<p class="date">December 2023 - February 2024</p>
 							</div>
 						</div>
 					</div>
@@ -205,62 +434,24 @@
 						<!-- Skill Section -->
 						<div class="row mb-4 ftco-animate">
 							<div class="col grow"><img class="img-fluid" src="images/skills/javascript.png"	title="JavaScript"></div>
-							<div class="col grow"><img class="img-fluid" src="images/skills/angular.png" title="Angular"></div>
+							<div class="col grow"><img class="img-fluid" src="images/skills/next.png" title="Nextjs"></div>
 							<div class="col grow"><img class="img-fluid" src="images/skills/react.png" title="React"></div>
 							<div class="col grow"><img class="img-fluid" src="images/skills/html.png" title="HTML"></div>
 							<div class="col grow"><img class="img-fluid" src="images/skills/css.png" title="CSS"></div>
-							<div class="col grow"><img class="img-fluid" src="images/skills/bootstrap.png" title="Bootstrap"></div>
+							<div class="col grow"><img class="img-fluid" src="images/skills/tailwind.png" title="Bootstrap"></div>
 						</div>
 						<div class="row mb-4 ftco-animate">
 							<div class="col grow"><img class="img-fluid" src="images/skills/cplusplus.png" title="C++"></div>
 							<div class="col grow"><img class="img-fluid" src="images/skills/c.png" title="C"></div>
-							<div class="col grow"><img class="img-fluid" src="images/skills/dart.png" title="Dart"></div>
-							<div class="col grow"><img class="img-fluid" src="images/skills/flutter.png" title="Flutter"></div>
-							<div class="col grow"><img class="img-fluid" src="images/skills/wordpress.png" title="Python"></div>
+							<div class="col grow"><img class="img-fluid" src="images/skills/node.png" title="Node"></div>
+							<div class="col grow"><img class="img-fluid" src="images/skills/mongo.png" title="Mongo"></div>
+							<div class="col grow"><img class="img-fluid" src="images/skills/wordpress.png" title="Wordpress"></div>
 							<div class="col grow"><img class="img-fluid" src="images/skills/python.png" title="Python"></div>
 						</div>
 
 
 					</div>
-					<div id="page-4" class="page four">
-						<h2 class="heading">Awards</h2>
-						<div class="resume-wrap d-flex ftco-animate">
-							<div class="icon d-flex align-items-center justify-content-center">
-								<span class="flaticon-medal"></span>
-							</div>
-							<div class="text pl-3">
-								<h2>Anchor - National Conference on Green IoT and Industry 5.0</h2>
-								<span class="position"><strong> Sanskriti University - </strong></span>
-								<span><strong>MSME ppdc, Agra</strong></span>
-								<p class="date">2019</p>
-								<p>Mathura - India</p>
-							</div>
-						</div>
-						<div class="resume-wrap d-flex ftco-animate">
-							<div class="icon d-flex align-items-center justify-content-center">
-								<span class="flaticon-medal"></span>
-							</div>
-							<div class="text pl-3">
-								<h2>Winner - Technical Paper Presentation Competition</h2>
-								<span class="position"><strong> Sanskriti University - </strong></span>
-								<span><strong>GOFCA</strong></span>
-								<p class="date">2019</p>
-								<p>Mathura - India</p>
-							</div>
-						</div>
-						<div class="resume-wrap d-flex ftco-animate">
-							<div class="icon d-flex align-items-center justify-content-center">
-								<span class="flaticon-trophy"></span>
-							</div>
-							<div class="text pl-3">
-								<h2>Runner Up - Technical Paper Presentation Competition</h2>
-								<span class="position"><strong>Sanskriti University - </strong></span>
-								<span><strong>Sanskriti University</strong></span>
-								<p class="date">2018</p>
-								<p>Mathura - India</p>
-							</div>
-						</div>
-					</div>
+					
 
 					<!-- certifications -->
 
@@ -274,7 +465,7 @@
 								<h2>Upgrad - Fullstack Development</h2>
 								<!-- <span class="position"><strong> Sanskriti University - </strong></span> -->
 								<!-- <span><strong>MSME ppdc, Agra</strong></span> -->
-								<p class="date">2021</p>
+								<p class="date">2024</p>
 								<p>Remote</p>
 							</div>
 						</div>
@@ -283,10 +474,10 @@
 								<span class="flaticon-medal"></span>
 							</div>
 							<div class="text pl-3">
-								<h2>Solo Learn - JavaScript Course</h2>
+								<h2>Infosys SpringBoard - JavaScript Course</h2>
 								<!-- <span class="position"><strong> Sanskriti University - </strong></span>
 								<span><strong>GOFCA</strong></span> -->
-								<p class="date">2021</p>
+								<p class="date">2023</p>
 								<p>Remote</p>
 							</div>
 						</div>
@@ -295,10 +486,10 @@
 								<span class="flaticon-medal"></span>
 							</div>
 							<div class="text pl-3">
-								<h2>Solo Learn - HTML Course</h2>
+								<h2>Infosys SpringBoard  - HTML Course</h2>
 								<!-- <span class="position"><strong> Sanskriti University - </strong></span>
 								<span><strong>GOFCA</strong></span> -->
-								<p class="date">2020</p>
+								<p class="date">2023</p>
 								<p>Remote</p>
 							</div>
 						</div>
@@ -307,10 +498,10 @@
 								<span class="flaticon-medal"></span>
 							</div>
 							<div class="text pl-3">
-								<h2>Solo Learn - CSS Course</h2>
+								<h2>Infosys SpringBoard  - CSS Course</h2>
 								<!-- <span class="position"><strong> Sanskriti University - </strong></span>
 								<span><strong>GOFCA</strong></span> -->
-								<p class="date">2020</p>
+								<p class="date">2023</p>
 								<p>Remote</p>
 							</div>
 						</div>
@@ -328,23 +519,22 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-4 text-center d-flex mx-auto ftco-animate">
-					<a href="https://sanket-sin.github.io/ScribblerProject/" target="_blank" class="services-1 shadow">
+				<div class="col-md-4 col-sm-6 col-12 text-center d-flex mx-auto ftco-animate">
+					<a href="" target="_blank" class="services-1 shadow">
 						<span class="icon">
-							<i class="icon-book"></i>
+							<i class="icon-globe"></i>
 						</span>
 						<div class="desc">
-							<h3 class="mb-4">Scribbler Project</h3>
-							<p><strong>Html • CSS • JavaScript</strong></p>
-							<p>A blogging website where a user can create new blog, update blog, add details to blog, delete blog and see others blog <br> Used
-								Html , css , javascript along with bootstrap</p>
+							<h3 class="mb-4">Tech Hub Cyber</h3>
+							<p><strong>Next.js • Tailwind CSS • Firebase</strong></p>
+							<p>A service website for printing, ticket booking, money transfer, and online utilities.</p>
 						</div>
 					</a>
 				</div>
-				<div class="col-md-4 text-center d-flex mx-auto ftco-animate">
-					<a href="https://sanket-sin.github.io/portfolio/" target="_blank" class="services-1 shadow">
+				<div class="col-md-4 col-sm-6 col-12 text-center d-flex mx-auto ftco-animate">
+					<a href="" target="_blank" class="services-1 shadow">
 						<span class="icon">
-							<i class="icon-terminal"></i>
+							<i class="icon-user"></i>
 						</span>
 						<div class="desc">
 							<h3 class="mb-4">PortFolio</h3>
@@ -355,46 +545,43 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-4 text-center d-flex mx-auto ftco-animate">
-					<a href="http://triveninewsonline.com/" target="_blank"
+				<div class="col-md-4 col-sm-6 col-12 text-center d-flex mx-auto ftco-animate">
+					<a href="" target="_blank"
 						class="services-1 shadow">
 						<span class="icon">
-							<i class="fas fa-clock" style="font-size:24px;"></i>
+							<i class="icon-heart" style="color: #e74c3c;"></i>
 						</span>
 						<div class="desc">
-							<h3 class="mb-4">News Website</h3>
-							<p><strong>Wordpress • Elementor Pro</strong></p>
-							<p>News website which shows all the recent news of Nepal and top news of world <br>
-							Used Elementor Pro page builder</p>
+							<h3 class="mb-4">BLOOD DONATION WEBSITE</h3>
+							<p><strong>Next.js • Tailwind CSS • Firebase</strong></p>
+							<p>A platform to connect blood donors and seekers across Nepal with real-time request and contact features.</p>
 						</div>
 					</a>
 				</div>
-				<div class="col-md-4 text-center d-flex ftco-animate">
-					<a href="https://manage-contact.netlify.app/" target="_blank"
+				<div class="col-md-4 col-sm-6 col-12 text-center d-flex ftco-animate">
+					<a href="" target="_blank"
 						class="services-1 shadow">
 						<span class="icon">
-							<i class="flaticon-bomberman"></i>
+							<i class="icon-briefcase"></i>
 						</span>
 						<div class="desc">
-							<h3 class="mb-4">Contact Manager App </h3> 
-							<p><strong>ReactJS • NodeJs • Semantic UI</strong></p>
-							<p>Contact Manager App using ReactJS to build different components with all the basic functionalties
-								such as React hooks, react router, functional and class components and so on<br>The app intends to store contacts 
-								of people using API's and perform operaions like Create, Delete , Update and Edit operations
+							<h3 class="mb-4">WORKNET 360 – EMS </h3> 
+							<p><strong>React • Node.js • Express • MongoDB</strong></p>
+							<p>An Employee Management System with Admin, HR, and Employee portals, featuring resume parsing and internal job posting.
 							</p>
 						</div>
 					</a>
 				</div>
-				<div class="col-md-4 text-center d-flex ftco-animate">
-					<a href="https://react-ecommerce-prj.netlify.app/" target="_blank"
+				<div class="col-md-4 col-sm-6 col-12 text-center d-flex ftco-animate">
+					<a href="" target="_blank"
 						class="services-1 shadow">
 						<span class="icon">
-							<i class="flaticon-circuit-board"></i>
+							<i class="icon-graduation-cap"></i>
 						</span>
 						<div class="desc">
-							<h3 class="mb-4">E-commerce Website</h3>
-							<p><strong>Html •  CSS • JavaScript • ReactJS • Bootstrap</strong></p>
-							<p>An E-commerce dummy website with several functionalities like add product to cart, place order, login
+							<h3 class="mb-4">DSA INSTRUCTOR</h3>
+							<p><strong>React.js • Tailwind CSS • Gemini API</strong></p>
+							<p>An AI-based platform that teaches Data Structures & Algorithms interactively using the Gemini API for explanations, code help, and concept clarity.
 								 </p>
 						</div>
 					</a>
@@ -414,53 +601,54 @@
 			</div>
 
 			<div class="row d-flex justify-content-center contact-info mb-5">
-				<div class="col-md-6 col-lg-3 d-flex ftco-animate">
+				<div class="col-md-6 col-lg-3 col-sm-6 col-12 d-flex ftco-animate">
 					<div class="align-self-stretch box text-center p-4 shadow">
 						<div class="icon d-flex align-items-center justify-content-center">
 							<span class="icon-phone2"></span>
 						</div>
 						<div>
 							<h3 class="mb-4">Contact Number</h3>
-							<p><a>+977-9815296841 <br> +91-9939831923</a></p>
+							
+							<p><a>(On Whatsapp) <br> +977-9820907454 <br> +91-9034982232</a></p>
 						</div>
 					</div>
 				</div>
-				<div class="col-md-6 col-lg-4 d-flex ftco-animate">
+				<div class="col-md-6 col-lg-4 col-sm-6 col-12 d-flex ftco-animate">
 					<div class="align-self-stretch box text-center p-4 shadow">
 						<div class="icon d-flex align-items-center justify-content-center">
 							<span class="icon-paper-plane"></span>
 						</div>
 						<div>
 							<h3 class="mb-4">Email Address</h3>
-							<p><a href="mailto:sinhasanket3@gmail.com">sinhasanket3@gmail.com</a></p>
+							<p><a href="mailto:sinhasanket3@gmail.com">guptasujal869gmail@gmail.com</a></p>
 						</div>
 					</div>
 				</div>
-				<div class="col-md-6 col-lg-3 d-flex ftco-animate">
+				<div class="col-md-6 col-lg-3 col-sm-6 col-12 d-flex ftco-animate">
 					<div class="align-self-stretch box text-center p-4 shadow">
 						<div class="icon d-flex align-items-center justify-content-center">
 							<span class="icon-linkedin-square"></span>
 						</div>
 						<div>
 							<h3 class="mb-4">LinkedIn</h3>
-							<p><a>sanket-sin</a></p>
+							<p><a>linkedin.com/sujalgupta31</a></p>
 						</div>
 					</div>
 				</div>
 			</div>
 
 			<div class="row no-gutters block-9">
-				<div class="col-md-6 order-md-last d-flex">
-					<form method="POST" action="https://formspree.io/f/myyowbwo"
+				<div class="col-md-6 col-12 order-md-last d-flex">
+					<form id="contactForm" method="POST" action="https://formspree.io/f/mpwlrzwp"
 						class="bg-light p-4 p-md-5 contact-form">
 						<div class="form-group">
-							<input type="text" class="form-control" name="name" placeholder="Your Name" required>
+							<input type="text" class="form-control" name="name" id="name" placeholder="Your Name" required>
 						</div>
 						<div class="form-group">
-							<input type="email" class="form-control" name="email" placeholder="Your Email" required>
+							<input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
 						</div>
 						<div class="form-group">
-							<textarea id="" cols="30" rows="7" class="form-control" name="message" placeholder="Message"
+							<textarea id="message" cols="30" rows="7" class="form-control" name="message" placeholder="Message"
 								required></textarea>
 						</div>
 
@@ -472,7 +660,7 @@
 
 				</div>
 
-				<div class="col-md-6 d-flex">
+				<div class="col-md-6 col-12 d-flex">
 					<div class="img" style="background-image: url(images/about2.jpg);"></div>
 				</div>
 			</div>
@@ -489,13 +677,13 @@
 						<p>I like working with new tools and technologies</p>
 						<p class="mt-4"><u>Social Links</u></p>
 						<ul class="ftco-footer-social list-unstyled float-md-left float-lft">
-							<li class="ftco-animate"><a href="https://github.com/sanket-sin" target="_blank"><span
+							<li class="ftco-animate"><a href="https://github.com/sujal931" target="_blank"><span
 										class="icon-github"></span></a></li>
-							<li class="ftco-animate"><a href="https://www.linkedin.com/in/sanket-sinha-333p/"
+							<li class="ftco-animate"><a href="https://www.linkedin.com/in/sujalgupta31/"
 									target="_blank"><span class="icon-linkedin-square"></span></a></li>
-							<li class="ftco-animate"><a href="https://www.facebook.com/sanket.sinha.1257/"
+							<li class="ftco-animate"><a href="https://www.facebook.com/sujal.gupta.3572846/"
 									target="_blank"><span class="icon-facebook"></span></a></li>
-							<li class="ftco-animate"><a href="https://www.instagram.com/sankett255/" target="_blank"><span
+							<li class="ftco-animate"><a href="https://www.instagram.com/sujal_gupta31/" target="_blank"><span
 										class="icon-instagram"></span></a></li>
 						</ul>
 					</div>
@@ -521,11 +709,11 @@
 						<h2 class="ftco-heading-2">Have a Question?</h2>
 						<div class="block-23 mb-3">
 							<ul>
-								<li><a><span class="icon icon-phone"></span><span class="text">+977-9815296841 <br>+91-9939831923
+								<li><a><span class="icon icon-phone"></span><span class="text">(On Whatsapp) <br> +977-9820907454 <br>+91-9034982232
 								</span></a></li>
 								<li><a href="mailto:sinhasanket3@gmail.com"><span
 											class="icon icon-envelope"></span><span
-											class="text">sinhasanket3@gmail.com</span></a></li>
+											class="text">guptasujal869@gmail</span></a></li>
 							</ul>
 						</div>
 					</div>
@@ -566,6 +754,53 @@
 	<script src="js/particles.min.js"></script>
 	<script src="js/app.js"></script>
 	<script src="js/main.js"></script>
+	
+	<!-- Custom Form Handling Script -->
+	<script>
+		// Handle form submission and clear fields
+		document.addEventListener('DOMContentLoaded', function() {
+			const contactForm = document.getElementById('contactForm');
+			
+			if (contactForm) {
+				contactForm.addEventListener('submit', function(e) {
+					// Allow the form to submit normally to Formspree
+					// After a short delay, clear the form fields
+					setTimeout(function() {
+						// Clear all form fields
+						document.getElementById('name').value = '';
+						document.getElementById('email').value = '';
+						document.getElementById('message').value = '';
+						
+						// Optional: Show a success message
+						alert('Thank you! Your message has been sent successfully.');
+					}, 1000); // 1 second delay to allow form submission
+				});
+			}
+		});
+		
+		// Handle browser back button - clear form if page is loaded from cache
+		window.addEventListener('pageshow', function(event) {
+			if (event.persisted) {
+				// Page was loaded from cache (user pressed back button)
+				const form = document.getElementById('contactForm');
+				if (form) {
+					form.reset();
+				}
+			}
+		});
+		
+		// Alternative method: Clear form on page load
+		window.addEventListener('load', function() {
+			const form = document.getElementById('contactForm');
+			if (form) {
+				// Check if URL contains success parameter (from Formspree redirect)
+				const urlParams = new URLSearchParams(window.location.search);
+				if (urlParams.get('success') || document.referrer.includes('formspree')) {
+					form.reset();
+				}
+			}
+		});
+	</script>
 
 </body>
 
