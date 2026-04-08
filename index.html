@@ -21,201 +21,205 @@
 	<link rel="stylesheet" href="css/icomoon.css">
 	<link rel="stylesheet" href="css/style.css">
 	<script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
-	
+
 	<!-- Custom Responsive Styles -->
 	<style>
 		/* Mobile First Responsive Design */
 		@media (max-width: 767px) {
+
 			/* Navigation adjustments */
 			.navbar-brand {
 				font-size: 1.2rem !important;
 			}
-			
+
 			/* Hero section adjustments */
 			.hero-wrap h1 {
 				font-size: 2.5rem !important;
 			}
-			
+
 			.hero-wrap h2 {
 				font-size: 1.3rem !important;
 			}
-			
+
 			/* About section adjustments */
 			.ftco-about .img-about {
 				height: 300px !important;
 				margin-bottom: 30px;
 			}
-			
+
 			.about-info li {
 				flex-direction: column !important;
 				align-items: flex-start !important;
 				margin-bottom: 10px;
 			}
-			
+
 			.about-info li span:first-child {
 				font-weight: bold;
 				margin-bottom: 5px;
 			}
-			
+
 			/* Resume section adjustments */
 			#navi {
 				margin-bottom: 30px;
 			}
-			
+
 			#navi ul {
 				display: flex;
 				flex-wrap: wrap;
 				gap: 10px;
 			}
-			
+
 			#navi ul li {
 				flex: 1;
 				min-width: calc(50% - 5px);
 			}
-			
+
 			#navi ul li a {
 				padding: 8px 12px;
 				font-size: 14px;
 				text-align: center;
 				display: block;
 			}
-			
+
 			/* Skills section adjustments */
 			.page.three .row.mb-4 {
 				margin-bottom: 20px !important;
 			}
-			
+
 			.page.three .col {
 				flex: 0 0 33.333333% !important;
 				max-width: 33.333333% !important;
 				padding: 5px !important;
 			}
-			
+
 			.page.three .col img {
 				max-height: 50px;
 				width: auto;
 			}
-			
+
 			/* Projects section adjustments */
 			.services-1 {
 				margin-bottom: 30px !important;
 			}
-			
+
 			.services-1 .icon {
 				margin-bottom: 15px;
 			}
-			
+
 			.services-1 .desc h3 {
 				font-size: 1.3rem !important;
 			}
-			
+
 			.services-1 .desc p {
 				font-size: 14px !important;
 			}
-			
+
 			/* Contact section adjustments */
 			.contact-info .box {
 				margin-bottom: 20px !important;
 			}
-			
+
 			.contact-form {
 				margin-top: 30px !important;
 			}
-			
+
 			/* Footer adjustments */
 			.ftco-footer-widget {
 				text-align: center !important;
 				margin-bottom: 30px !important;
 			}
-			
+
 			.ftco-footer-social {
 				justify-content: center !important;
 			}
 		}
-		
+
 		@media (max-width: 575px) {
+
 			/* Extra small devices */
 			.hero-wrap h1 {
 				font-size: 2rem !important;
 			}
-			
+
 			.hero-wrap h2 {
 				font-size: 1.1rem !important;
 			}
-			
+
 			.page.three .col {
 				flex: 0 0 50% !important;
 				max-width: 50% !important;
 			}
-			
+
 			#navi ul li {
 				flex: 1;
 				min-width: 100%;
 			}
-			
+
 			.contact-info .col-md-6.col-lg-3,
 			.contact-info .col-md-6.col-lg-4 {
 				flex: 0 0 100% !important;
 				max-width: 100% !important;
 			}
 		}
-		
+
 		@media (min-width: 768px) and (max-width: 991px) {
+
 			/* Tablet adjustments */
 			.hero-wrap h1 {
 				font-size: 3rem !important;
 			}
-			
+
 			.page.three .col {
 				flex: 0 0 25% !important;
 				max-width: 25% !important;
 			}
-			
+
 			.services-1 .desc h3 {
 				font-size: 1.4rem !important;
 			}
 		}
-		
+
 		@media (min-width: 992px) and (max-width: 1199px) {
+
 			/* Large tablet/small desktop adjustments */
 			.hero-wrap h1 {
 				font-size: 3.5rem !important;
 			}
 		}
-		
+
 		/* General responsive improvements */
 		.container-fluid {
 			padding-left: 15px !important;
 			padding-right: 15px !important;
 		}
-		
+
 		.img-fluid {
 			max-width: 100% !important;
 			height: auto !important;
 		}
-		
+
 		/* Ensure text doesn't overflow */
 		.text-wrap {
 			word-wrap: break-word;
 			overflow-wrap: break-word;
 		}
-		
+
 		/* Better spacing for mobile */
 		@media (max-width: 767px) {
 			.py-5 {
 				padding-top: 2rem !important;
 				padding-bottom: 2rem !important;
 			}
-			
+
 			.mt-5 {
 				margin-top: 2rem !important;
 			}
-			
+
 			.mb-5 {
 				margin-bottom: 2rem !important;
 			}
 		}
-		
+
 		/* Form input improvements */
 		.contact-form .form-control {
 			font-size: 16px !important;
@@ -227,7 +231,7 @@
 			opacity: 1 !important;
 			color: #333 !important;
 		}
-		
+
 		.contact-form .form-control:focus {
 			border-color: #007bff !important;
 			box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25) !important;
@@ -236,13 +240,13 @@
 			opacity: 1 !important;
 			color: #333 !important;
 		}
-		
+
 		.contact-form .form-control::placeholder {
 			font-weight: normal !important;
 			opacity: 0.7 !important;
 			color: #666 !important;
 		}
-		
+
 		.contact-form textarea.form-control {
 			resize: vertical !important;
 			min-height: 120px !important;
@@ -250,21 +254,73 @@
 			opacity: 1 !important;
 			color: #333 !important;
 		}
-		
+
 		.contact-form .btn {
 			font-size: 16px !important;
 			font-weight: 500 !important;
 		}
+
+		/* Project card link buttons */
+		.services-1 {
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+		}
+
+		.project-links {
+			display: flex;
+			gap: 10px;
+			justify-content: center;
+			margin-top: 16px;
+			flex-wrap: wrap;
+		}
+
+		.project-links a {
+			display: inline-flex;
+			align-items: center;
+			gap: 6px;
+			padding: 7px 16px;
+			border-radius: 25px;
+			font-size: 13px;
+			font-weight: 600;
+			text-decoration: none;
+			transition: all 0.25s ease;
+			border: 2px solid transparent;
+		}
+
+		.btn-live {
+			background: #F96D00;
+			color: #fff !important;
+			border-color: #F96D00 !important;
+		}
+
+		.btn-live:hover {
+			background: transparent !important;
+			color: #F96D00 !important;
+			border-color: #F96D00 !important;
+		}
+
+		.btn-github {
+			background: #24292e;
+			color: #fff !important;
+			border-color: #24292e !important;
+		}
+
+		.btn-github:hover {
+			background: transparent !important;
+			color: #24292e !important;
+			border-color: #24292e !important;
+		}
 	</style>
-	
+
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-039VPBVHWX"></script>
 	<script>
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
 
-	gtag('config', 'G-039VPBVHWX');
+		gtag('config', 'G-039VPBVHWX');
 	</script>
 </head>
 
@@ -304,7 +360,7 @@
 					<div class="text text-center">
 						<span class="subheading">Hey! I am</span>
 						<h1>Sujal Gupta</h1>
-						<h2>I am a  
+						<h2>I am a
 							<span class="txt-rotate" data-period="2000"
 								data-rotate='[ "Software Developer.", "Problem Solver.","Team Player."]'></span>
 						</h2>
@@ -340,16 +396,19 @@
 							<p>I like working with new Tools and Technologies.</p>
 							<ul class="about-info mt-4 px-md-0 px-2">
 								<li class="d-flex"><span>Name:</span><span>Sujal Gupta</span></li>
-								<li class="d-flex"><span>Email:</span><span style="font-size: 14px">guptasujal869gmail.com</span></li>
-								<li class="d-flex"><span>Phone:</span><span>+977-9820907454  ,  +91-9034982232</span></li>
-								<li class="d-flex"><span>Country:</span> <span>Nepal</span></li>
-								<li class="d-flex"><span>City:</span><span>Birgunj</span></li>
+								<li class="d-flex"><span>Email:</span><span
+										style="font-size: 14px">guptasujal869gmail.com</span></li>
+								<li class="d-flex"><span>Phone:</span><span> +91-9296326827,+977-9820907454 </span></li>
+								<li class="d-flex"><span>Country:</span> <span>India</span></li>
+								<li class="d-flex"><span>City:</span><span>Delhi</span></li>
 							</ul>
 						</div>
 					</div>
 					<div class="counter-wrap ftco-animate d-flex mt-md-3">
 						<div class="text">
-							<p><a href="resume/Sujal_Gupta(Resume).pdf" target="_blank" class="btn btn-primary py-3 px-3">Download Resume</a></p>
+							<p><a href="resume/Sujal Gupta - Resume.pdf" target="_blank"
+									download="Sujal Gupta - Resume.pdf" class="btn btn-primary py-3 px-3">Download
+									Resume</a></p>
 						</div>
 					</div>
 				</div>
@@ -384,7 +443,7 @@
 								<span class="position">Bachelor of Tecnology</span>
 								<p><strong>Computer Science</strong></p>
 								<p>Haryana - India</p>
-								<span class="date">2012-2026 (July)</span>
+								<span class="date">2022-2026 (July)</span>
 							</div>
 						</div>
 						<div class="resume-wrap d-flex ftco-animate">
@@ -415,43 +474,99 @@
 
 					<div id="page-2" class="page two">
 						<h2 class="heading">Internship</h2>
-						<div class="resume-wrap d-flex ftco-animate">
-							
-						</div>
+
+						<!-- Infosys - CampusEventHub -->
 						<div class="resume-wrap d-flex ftco-animate">
 							<div class="icon d-flex align-items-center justify-content-center">
 								<span class="flaticon-suitcase"></span>
 							</div>
 							<div class="text pl-3">
-								<h2>Adsbee</h2>
-								<span class="position">Web Developer</span>
-								<p class="date">December 2023 - February 2024</p>
+								<h2>Infosys</h2>
+								<span class="position">Full Stack Developer | Intern</span>
+								<p class="date">February 2026 – April 2026</p>
+								<ul>
+									<li>Built a centralized inter-college event management platform with role-based
+										dashboards for students, college admins, and super admins, streamlining event
+										hosting and registrations.</li>
+									<li>Developed event CRUD, filtering, registration workflows, and feedback/analytics
+										modules, improving event coordination across multiple colleges.</li>
+									<li><strong>Tech Stack:</strong> MERN Stack, Angular, MongoDB</li>
+								</ul>
 							</div>
 						</div>
+
+						<!-- OpenBlockAI -->
+						<div class="resume-wrap d-flex ftco-animate">
+							<div class="icon d-flex align-items-center justify-content-center">
+								<span class="flaticon-suitcase"></span>
+							</div>
+							<div class="text pl-3">
+								<h2>OpenBlockAI</h2>
+								<span class="position">Full Stack Developer | Intern</span>
+								<p class="date">December 2025 – March 2026</p>
+								<ul>
+									<li>Contributed to 8+ microservices and built full-stack features across Customer,
+										Bank, and Admin portals, ensuring seamless API integrations end-to-end.</li>
+									<li>Merged a detailed Pull Request into the main repository and earned recognition
+										as a listed contributor through cross-team collaboration.</li>
+									<li><strong>Tech Stack:</strong> MERN Stack, PostgreSQL, NestJS, OpenAI API</li>
+								</ul>
+							</div>
+						</div>
+
+						<!-- SmaranAI -->
+						<div class="resume-wrap d-flex ftco-animate">
+							<div class="icon d-flex align-items-center justify-content-center">
+								<span class="flaticon-suitcase"></span>
+							</div>
+							<div class="text pl-3">
+								<h2>SmaranAI</h2>
+								<span class="position">Full Stack Developer | Intern</span>
+								<p class="date">August 2025 – September 2025</p>
+								<ul>
+									<li>Built a Google Sheets integration to fetch and display intern information,
+										improving accessibility and reducing manual tracking by 40%.</li>
+									<li>Developed a project assignment system for interns, enhancing coordination
+										between HR and developers.</li>
+									<li><strong>Tech Stack:</strong> MERN Stack, Google OAuth, Google Sheets API</li>
+								</ul>
+							</div>
+						</div>
+
 					</div>
 					<div id="page-3" class="page three">
 						<h2 class="heading">Skills</h2>
 						<!-- Skill Section -->
 						<div class="row mb-4 ftco-animate">
-							<div class="col grow"><img class="img-fluid" src="images/skills/javascript.png"	title="JavaScript"></div>
-							<div class="col grow"><img class="img-fluid" src="images/skills/next.png" title="Nextjs"></div>
-							<div class="col grow"><img class="img-fluid" src="images/skills/react.png" title="React"></div>
-							<div class="col grow"><img class="img-fluid" src="images/skills/html.png" title="HTML"></div>
+							<div class="col grow"><img class="img-fluid" src="images/skills/javascript.png"
+									title="JavaScript"></div>
+							<div class="col grow"><img class="img-fluid" src="images/skills/next.png" title="Nextjs">
+							</div>
+							<div class="col grow"><img class="img-fluid" src="images/skills/react.png" title="React">
+							</div>
+							<div class="col grow"><img class="img-fluid" src="images/skills/html.png" title="HTML">
+							</div>
 							<div class="col grow"><img class="img-fluid" src="images/skills/css.png" title="CSS"></div>
-							<div class="col grow"><img class="img-fluid" src="images/skills/tailwind.png" title="Bootstrap"></div>
+							<div class="col grow"><img class="img-fluid" src="images/skills/tailwind.png"
+									title="Bootstrap"></div>
 						</div>
 						<div class="row mb-4 ftco-animate">
-							<div class="col grow"><img class="img-fluid" src="images/skills/cplusplus.png" title="C++"></div>
+							<div class="col grow"><img class="img-fluid" src="images/skills/cplusplus.png" title="C++">
+							</div>
 							<div class="col grow"><img class="img-fluid" src="images/skills/c.png" title="C"></div>
-							<div class="col grow"><img class="img-fluid" src="images/skills/node.png" title="Node"></div>
-							<div class="col grow"><img class="img-fluid" src="images/skills/mongo.png" title="Mongo"></div>
-							<div class="col grow"><img class="img-fluid" src="images/skills/wordpress.png" title="Wordpress"></div>
-							<div class="col grow"><img class="img-fluid" src="images/skills/python.png" title="Python"></div>
+							<div class="col grow"><img class="img-fluid" src="images/skills/node.png" title="Node">
+							</div>
+							<div class="col grow"><img class="img-fluid" src="images/skills/mongo.png" title="Mongo">
+							</div>
+							<div class="col grow"><img class="img-fluid" src="images/skills/wordpress.png"
+									title="Wordpress"></div>
+							<div class="col grow"><img class="img-fluid" src="images/skills/python.png" title="Python">
+							</div>
 						</div>
 
 
 					</div>
-					
+
 
 					<!-- certifications -->
 
@@ -486,7 +601,7 @@
 								<span class="flaticon-medal"></span>
 							</div>
 							<div class="text pl-3">
-								<h2>Infosys SpringBoard  - HTML Course</h2>
+								<h2>Infosys SpringBoard - HTML Course</h2>
 								<!-- <span class="position"><strong> Sanskriti University - </strong></span>
 								<span><strong>GOFCA</strong></span> -->
 								<p class="date">2023</p>
@@ -498,7 +613,7 @@
 								<span class="flaticon-medal"></span>
 							</div>
 							<div class="text pl-3">
-								<h2>Infosys SpringBoard  - CSS Course</h2>
+								<h2>Infosys SpringBoard - CSS Course</h2>
 								<!-- <span class="position"><strong> Sanskriti University - </strong></span>
 								<span><strong>GOFCA</strong></span> -->
 								<p class="date">2023</p>
@@ -518,76 +633,134 @@
 					<h2 class="mb-4">Projects</h2>
 				</div>
 			</div>
-			<div class="row">
+			<!-- Row 1: Baudhika, DeadGpt, WorkNet 360 -->
+			<div class="row mb-4">
 				<div class="col-md-4 col-sm-6 col-12 text-center d-flex mx-auto ftco-animate">
-					<a href="" target="_blank" class="services-1 shadow">
+					<div class="services-1 shadow">
+						<span class="icon">
+							<i class="icon-graduation-cap" style="color: #8e44ad;"></i>
+						</span>
+						<div class="desc">
+							<h3 class="mb-2">Baudhika</h3>
+							<p><strong>Next.js • MERN Stack • TailwindCSS</strong></p>
+							<p>An interactive e-learning platform with course management, JWT/OAuth authentication,
+								progress tracking, and cloud deployment for scalable concurrent learner access.</p>
+							<div class="project-links">
+								<a href="https://baudhika.com/" target="_blank" class="btn-live"><i
+										class="icon-globe"></i> Live</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6 col-12 text-center d-flex mx-auto ftco-animate">
+					<div class="services-1 shadow">
+						<span class="icon">
+							<i class="icon-chat" style="color: #27ae60;"></i>
+						</span>
+						<div class="desc">
+							<h3 class="mb-2">DeadGpt</h3>
+							<p><strong>Node.js • Gemini API • Express</strong></p>
+							<p>An intelligent AI chatbot with web search, memory caching, and contextual responses.
+								Features persistent memory storage and real-time information retrieval, reducing
+								response latency by 25%.</p>
+							<div class="project-links">
+								<a href="https://deadgpt.onrender.com/" target="_blank" class="btn-live"><i
+										class="icon-globe"></i> Live</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6 col-12 text-center d-flex mx-auto ftco-animate">
+					<div class="services-1 shadow">
+						<span class="icon">
+							<i class="icon-briefcase" style="color: #2980b9;"></i>
+						</span>
+						<div class="desc">
+							<h3 class="mb-2">WorkNet 360</h3>
+							<p><strong>Next.js • MERN Stack • TailwindCSS</strong></p>
+							<p>A scalable Employee Management System centralizing employee records, project assignments,
+								attendance tracking, and role-based dashboards with automated notifications and alerts.
+							</p>
+							<div class="project-links">
+								<a href="https://github.com/sujal931/WorkNet-360" target="_blank" class="btn-github"><i
+										class="icon-github"></i> GitHub</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Row 2: Tech Hub Cyber, Portfolio -->
+			<div class="row mb-4">
+				<div class="col-md-4 col-sm-6 col-12 text-center d-flex mx-auto ftco-animate">
+					<div class="services-1 shadow">
 						<span class="icon">
 							<i class="icon-globe"></i>
 						</span>
 						<div class="desc">
-							<h3 class="mb-4">Tech Hub Cyber</h3>
+							<h3 class="mb-2">Tech Hub Cyber</h3>
 							<p><strong>Next.js • Tailwind CSS • Firebase</strong></p>
 							<p>A service website for printing, ticket booking, money transfer, and online utilities.</p>
+							<div class="project-links">
+								<a href="https://www.techhubcyber.com.np/" target="_blank" class="btn-live"><i
+										class="icon-globe"></i> Live</a>
+							</div>
 						</div>
-					</a>
+					</div>
 				</div>
 				<div class="col-md-4 col-sm-6 col-12 text-center d-flex mx-auto ftco-animate">
-					<a href="" target="_blank" class="services-1 shadow">
+					<div class="services-1 shadow">
 						<span class="icon">
 							<i class="icon-user"></i>
 						</span>
 						<div class="desc">
-							<h3 class="mb-4">PortFolio</h3>
-							<p><strong>HTML • CSS • JavaScript • SCSS  • Bootstrap</strong></p>
-							<p>A Personal Portfolio Website containg resume, projects, acheivements, certifications and contact details</p>
+							<h3 class="mb-2">PortFolio</h3>
+							<p><strong>HTML • CSS • JavaScript • SCSS • Bootstrap</strong></p>
+							<p>A Personal Portfolio Website containing resume, projects, achievements, certifications
+								and contact details.</p>
+							<div class="project-links">
+								<a href="https://sujalgupta1.netlify.app/" target="_blank" class="btn-live"><i
+										class="icon-globe"></i> Live</a>
+							</div>
 						</div>
-					</a>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6 col-12 text-center d-flex mx-auto ftco-animate">
+					<div class="services-1 shadow">
+						<span class="icon">
+							<i class="icon-graduation-cap" style="color: #e67e22;"></i>
+						</span>
+						<div class="desc">
+							<h3 class="mb-2">GetCertX</h3>
+							<p><strong>Next.js • Express.js • Framer Motion</strong></p>
+							<p>An e-learning and certification platform with smooth animations, course delivery, and a
+								seamless user experience powered by Framer Motion and a robust Express backend.</p>
+							<div class="project-links">
+								<a href="https://www.getcertx.com/" target="_blank" class="btn-live"><i
+										class="icon-globe"></i> Live</a>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
-			<div class="row">
+			<!-- Row 3: Blood Donation, DSA Instructor -->
+			<div class="row mb-4">
 				<div class="col-md-4 col-sm-6 col-12 text-center d-flex mx-auto ftco-animate">
-					<a href="" target="_blank"
-						class="services-1 shadow">
+					<div class="services-1 shadow">
 						<span class="icon">
 							<i class="icon-heart" style="color: #e74c3c;"></i>
 						</span>
 						<div class="desc">
-							<h3 class="mb-4">BLOOD DONATION WEBSITE</h3>
+							<h3 class="mb-2">Blood Donation Website</h3>
 							<p><strong>Next.js • Tailwind CSS • Firebase</strong></p>
-							<p>A platform to connect blood donors and seekers across Nepal with real-time request and contact features.</p>
+							<p>A platform to connect blood donors and seekers across Nepal with real-time request and
+								contact features.</p>
+							<div class="project-links">
+								<a href="https://github.com/sujal931/nepali-blood-connect" target="_blank"
+									class="btn-github"><i class="icon-github"></i> GitHub</a>
+							</div>
 						</div>
-					</a>
+					</div>
 				</div>
-				<div class="col-md-4 col-sm-6 col-12 text-center d-flex ftco-animate">
-					<a href="" target="_blank"
-						class="services-1 shadow">
-						<span class="icon">
-							<i class="icon-briefcase"></i>
-						</span>
-						<div class="desc">
-							<h3 class="mb-4">WORKNET 360 – EMS </h3> 
-							<p><strong>React • Node.js • Express • MongoDB</strong></p>
-							<p>An Employee Management System with Admin, HR, and Employee portals, featuring resume parsing and internal job posting.
-							</p>
-						</div>
-					</a>
-				</div>
-				<div class="col-md-4 col-sm-6 col-12 text-center d-flex ftco-animate">
-					<a href="" target="_blank"
-						class="services-1 shadow">
-						<span class="icon">
-							<i class="icon-graduation-cap"></i>
-						</span>
-						<div class="desc">
-							<h3 class="mb-4">DSA INSTRUCTOR</h3>
-							<p><strong>React.js • Tailwind CSS • Gemini API</strong></p>
-							<p>An AI-based platform that teaches Data Structures & Algorithms interactively using the Gemini API for explanations, code help, and concept clarity.
-								 </p>
-						</div>
-					</a>
-				</div>
-				
-			</div>
 		</div>
 		</div>
 	</section>
@@ -608,8 +781,8 @@
 						</div>
 						<div>
 							<h3 class="mb-4">Contact Number</h3>
-							
-							<p><a>(On Whatsapp) <br> +977-9820907454 <br> +91-9034982232</a></p>
+
+							<p><a>(On Whatsapp) <br> +977-9820907454 <br> +91-9296326827</a></p>
 						</div>
 					</div>
 				</div>
@@ -642,14 +815,16 @@
 					<form id="contactForm" method="POST" action="https://formspree.io/f/mpwlrzwp"
 						class="bg-light p-4 p-md-5 contact-form">
 						<div class="form-group">
-							<input type="text" class="form-control" name="name" id="name" placeholder="Your Name" required>
+							<input type="text" class="form-control" name="name" id="name" placeholder="Your Name"
+								required>
 						</div>
 						<div class="form-group">
-							<input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+							<input type="email" class="form-control" name="email" id="email" placeholder="Your Email"
+								required>
 						</div>
 						<div class="form-group">
-							<textarea id="message" cols="30" rows="7" class="form-control" name="message" placeholder="Message"
-								required></textarea>
+							<textarea id="message" cols="30" rows="7" class="form-control" name="message"
+								placeholder="Message" required></textarea>
 						</div>
 
 						<div class="form-group">
@@ -683,8 +858,8 @@
 									target="_blank"><span class="icon-linkedin-square"></span></a></li>
 							<li class="ftco-animate"><a href="https://www.facebook.com/sujal.gupta.3572846/"
 									target="_blank"><span class="icon-facebook"></span></a></li>
-							<li class="ftco-animate"><a href="https://www.instagram.com/sujal_gupta31/" target="_blank"><span
-										class="icon-instagram"></span></a></li>
+							<li class="ftco-animate"><a href="https://www.instagram.com/sujal_gupta31/"
+									target="_blank"><span class="icon-instagram"></span></a></li>
 						</ul>
 					</div>
 				</div>
@@ -709,8 +884,9 @@
 						<h2 class="ftco-heading-2">Have a Question?</h2>
 						<div class="block-23 mb-3">
 							<ul>
-								<li><a><span class="icon icon-phone"></span><span class="text">(On Whatsapp) <br> +977-9820907454 <br>+91-9034982232
-								</span></a></li>
+								<li><a><span class="icon icon-phone"></span><span class="text">(On Whatsapp) <br>
+											+977-9820907454 <br>+91-9296326827
+										</span></a></li>
 								<li><a href="mailto:sinhasanket3@gmail.com"><span
 											class="icon icon-envelope"></span><span
 											class="text">guptasujal869@gmail</span></a></li>
@@ -754,32 +930,32 @@
 	<script src="js/particles.min.js"></script>
 	<script src="js/app.js"></script>
 	<script src="js/main.js"></script>
-	
+
 	<!-- Custom Form Handling Script -->
 	<script>
 		// Handle form submission and clear fields
-		document.addEventListener('DOMContentLoaded', function() {
+		document.addEventListener('DOMContentLoaded', function () {
 			const contactForm = document.getElementById('contactForm');
-			
+
 			if (contactForm) {
-				contactForm.addEventListener('submit', function(e) {
+				contactForm.addEventListener('submit', function (e) {
 					// Allow the form to submit normally to Formspree
 					// After a short delay, clear the form fields
-					setTimeout(function() {
+					setTimeout(function () {
 						// Clear all form fields
 						document.getElementById('name').value = '';
 						document.getElementById('email').value = '';
 						document.getElementById('message').value = '';
-						
+
 						// Optional: Show a success message
 						alert('Thank you! Your message has been sent successfully.');
 					}, 1000); // 1 second delay to allow form submission
 				});
 			}
 		});
-		
+
 		// Handle browser back button - clear form if page is loaded from cache
-		window.addEventListener('pageshow', function(event) {
+		window.addEventListener('pageshow', function (event) {
 			if (event.persisted) {
 				// Page was loaded from cache (user pressed back button)
 				const form = document.getElementById('contactForm');
@@ -788,9 +964,9 @@
 				}
 			}
 		});
-		
+
 		// Alternative method: Clear form on page load
-		window.addEventListener('load', function() {
+		window.addEventListener('load', function () {
 			const form = document.getElementById('contactForm');
 			if (form) {
 				// Check if URL contains success parameter (from Formspree redirect)
